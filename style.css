@@ -38,7 +38,7 @@ body {
 
 /* Landing Page */
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/cloud1.jpg);
 }
 .caption {
   width: 100%;
@@ -129,7 +129,7 @@ h3.heading {
 
 /* Resources */
 .fixed {
-  background-image: url(img/apple.png);
+  background-image: url(img/cloud2.jpg);
   z-index: -1;
 }
 .dark {
