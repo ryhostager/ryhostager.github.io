@@ -38,7 +38,8 @@ body {
 
 /* Landing Page */
 .home-inner {
-  background-image: url(img/cloud1.jpg);
+  background-image: url(img/mpls3.jpg);
+  filter: brightness(50%);
 }
 .caption {
   width: 100%;
@@ -230,6 +231,69 @@ hr.socket {
   margin: 0% 0% 0% 3%;
   padding: 6% 0%;
 }
+
+/* Chips */
+.chip.chip-md {
+  height: 42px;
+  line-height: 42px;
+  border-radius: 21px;
+}
+
+.chip.chip-md .close {
+  height: 42px;
+  line-height: 42px;
+  border-radius: 21px;
+}
+.center {
+  text-align:center;
+}
+
+.success-color{background-color:#00c851 !important}
+.white-text{color:#fff !important}
+
+.blue-yellow-gradient-rgba {
+  background: linear-gradient(40deg, #ffd43B, #306998) !important
+}
+.html-gradient {
+  background: linear-gradient(40deg, #f06529, #e34c26) !important
+}
+.css-gradient {
+  background: linear-gradient(40deg, #2965f1, #264de4) !important
+}
+.js-gradient {
+  background: linear-gradient(40deg, #f0db4f, #323330) !important
+}
+.elastic-gradient {
+  background: linear-gradient(40deg, rgba(255, 110, 196, 0.9), rgba(82, 189, 162, 0.9)) !important
+}
+.sql-gradient {
+  background: linear-gradient(40deg, #00758f, #f29111) !important
+}
+.react-gradient {
+  background: rgb(55, 159, 185) !important
+}
+.tf-gradient {
+  background: linear-gradient(40deg, #FFA800, #FF6F00) !important
+}
+.java-gradient {
+  background: linear-gradient(40deg, #Fa9820, #5382a1) !important
+}
+.angular-gradient {
+  background: linear-gradient(40deg, #b52e31, #d32f2f) !important
+}
+.aws-gradient {
+  background: linear-gradient(40deg, #ffc46d, #ff9900) !important
+}
+.web-gradient {
+  background: linear-gradient(40deg, #0d8b01, #4ce93d) !important
+}
+.sports-gradient {
+  background: linear-gradient(40deg, #d32e2e, #661212) !important
+}
+.dev-gradient {
+  background: linear-gradient(40deg, #c356c7, #59165c) !important
+}
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
