@@ -9711,7 +9711,7 @@ table.table a.btn.btn-black {
     padding: .375rem .75rem;
     margin: 0
 }
-
+/*
 .navbar {
     font-weight: 300;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -9909,23 +9909,38 @@ table.table a.btn.btn-black {
     transition: .35s
 }
 
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    -webkit-transition: .35s;
+    transition: .35s
+}
+
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover,
 .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75)
+    color: #a6c
 }
 
 .navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link,
 .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
-    background-color: rgba(255, 255, 255, 0.1)
+    background-color: #a6c
 }
 
 .navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link:hover,
 .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link:hover {
-    color: #fff
+    color: #a6c
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+  }
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link:hover{
+    color: #a6c;
+  }
+
 .navbar.navbar-dark .navbar-toggler {
-    color: #fff
+    color: #a6c
 }
 
 .navbar.navbar-dark form .md-form input {
@@ -9983,7 +9998,7 @@ table.table a.btn.btn-black {
         padding-bottom: 5px
     }
 }
-
+*/
 .pagination .page-item.active .page-link {
     color: #fff;
     background-color: #4285f4;
